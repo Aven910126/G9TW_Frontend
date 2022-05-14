@@ -70,6 +70,11 @@
               title="Refresh"
               v-on:click="refresh"
             ></v-list-item>
+                        <v-list-item
+              prepend-icon="mdi-refresh"
+              title="Create Contact"
+              to="/createContact"
+            ></v-list-item>
           </v-list-item-group>
         </v-list>
       </v-navigation-drawer>

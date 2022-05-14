@@ -6,15 +6,12 @@ import MachineList from "../views/MachineList.vue"
 import Settings from "../views/Settings.vue"
 import Wallet from "../views/Wallet.vue"
 import MachineStorageList from "../views/MachineStorageList.vue"
+import CreateContact  from "../views/CreateContact.vue"
 const routes = [{
         path: "/",
         name: "index",
         component: Index,
-    }, {
-        path: "/account/login",
-        name: "Login",
-        component: Login,
-    },
+    }, 
     {
         path: "/machine/list",
         name: "MachineList",
@@ -39,6 +36,11 @@ const routes = [{
         path: "/graph",
         name: "GraphView",
         component: GraphView,
+    },
+    {
+        path: "/createContact",
+        name: "CreateContact",
+        component: CreateContact,
     },
 ];
 
